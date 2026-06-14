@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>chatbot-ollama</Name>
+  <Repository>ghcr.io/ivanfioravanti/chatbot-ollama:main</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ivanfioravanti/chatbot-ollama/issues</Support>
+  <Project>https://github.com/ivanfioravanti/chatbot-ollama</Project>
+  <Overview>Chatbot Ollama is an open source chat UI for Ollama</Overview>
+  <Category>AI: Tools: Network:Web</Category>
+  <WebUI>http://[IP][PORT:3000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Joly0/unraid-templates/main/templates/chatbot-ollama.xml</TemplateURL>
+  <Icon>https://github.com/ivanfioravanti/chatbot-ollama/blob/main/public/favicon.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+</Container>
